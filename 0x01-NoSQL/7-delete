@@ -1,0 +1,2 @@
+// deleting all document in the collection with similar NAMES
+db.school.deleteMany({name: "Holberton school"});
